@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
