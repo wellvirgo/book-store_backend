@@ -43,7 +43,7 @@ public class SecurityConfig {
 
     /* Khai báo các endpoint được truy cập không cần xác thực*/
     @NonFinal
-    private static final String[] PUBLIC_ENDPOINT = {"/favicon.ico", "/login"};
+    private static final String[] PUBLIC_ENDPOINT = {"/favicon.ico", "/login", "/api/v1/products/2"};
 
     /*  Khai báo bean mã hóa mật khẩu Bcrypt */
     @Bean
